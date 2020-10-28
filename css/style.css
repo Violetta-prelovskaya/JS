@@ -16,6 +16,10 @@ body {
     border-radius: 100px 0 100px 0;
 }
 
+.second-page {
+    background: #9b59b6;
+}
+
 .page-close__icon {
     cursor: pointer;
     margin-top: 4px;
