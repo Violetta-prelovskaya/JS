@@ -1,1 +1,1 @@
-document.querySelector('.page');
+console.log(document.querySelector('.page'));
