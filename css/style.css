@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.page {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    top: 50%;
+    margin-top: -150px;
+    background: #1abc9c;
+    padding: 52px 0;
+    box-sizing: border-box;
+    border-radius: 100px 0 100px 0;
+}
+
+.page-close__icon {
+    cursor: pointer;
+    margin-top: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 7px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.page-form {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+
+.input-label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+span {
+    font-size: 19px;
+}
+
+button {
+    border: none;
+    border-radius: 1px;
+    outline: none;
+    cursor: pointer;
+    background: #f1c40f;
+    padding: 10px 28px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+button:hover {
+    background: #f39c12;
+    color: white;
+}
