@@ -67,3 +67,7 @@ button:hover {
     background: #f39c12;
     color: white;
 }
+
+.light-button {
+    background: white;
+}
