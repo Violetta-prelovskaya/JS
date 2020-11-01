@@ -3,3 +3,6 @@ page.classList.remove('second-page');
 page.classList.add('second-page');
 document.querySelector('button').classList.add('light-button');
 let lightButton = document.querySelector('.light-button');
+lightButton.onclick = function(){
+    console.log('Кнопка нажата!');
+};
