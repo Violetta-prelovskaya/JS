@@ -6,3 +6,4 @@ let lightButton = document.querySelector('.light-button');
 lightButton.onclick = function(){
     console.log('Кнопка нажата!');
 };
+document.querySelector('p').classList.add('thank-you');
