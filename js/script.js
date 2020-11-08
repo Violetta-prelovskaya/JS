@@ -28,3 +28,6 @@ heart.onclick = function () {
 
 // Классу likes-number присвоена переменная likesNumber
 let likesNumber = document.querySelector('.likes-number');
+
+// Объявлена переменная сounter, которой присвоено значение 0
+let counter = 0; 
