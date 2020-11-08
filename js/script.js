@@ -25,3 +25,6 @@ let heart = document.querySelector('.heart');
 heart.onclick = function () {
   	heart.classList.toggle('added');
 };
+
+// Классу likes-number присвоена переменная likesNumber
+let likesNumber = document.querySelector('.likes-number');
