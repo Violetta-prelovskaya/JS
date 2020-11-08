@@ -3,8 +3,8 @@ body {
 }
 
 .page {
-    width: 600px;
-    height: 300px;
+    width: 604px;
+    height: 286px;
     position: absolute;
     left: 50%;
     margin-left: -300px;
@@ -44,6 +44,14 @@ h1 {
 .input-label {
     display: block;
     margin-bottom: 10px;
+}
+
+input {
+    outline: none;
+    border: none;
+    width: 264px;
+    padding: 7px 0 7px 28px;
+    font-size: 17px;
 }
 
 span {

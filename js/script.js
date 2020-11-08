@@ -1,2 +1,2 @@
-document.querySelector('.page').classList.remove('second-page');
+//document.querySelector('.page').classList.remove('second-page');
 
