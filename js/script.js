@@ -23,6 +23,7 @@ console.log(55 * ( 7 + 2 ) / ( 4 + 2 ));
 
 let heart = document.querySelector('.heart');
 heart.onclick = function () {
+    likesNumber.textContent = counter;
   	heart.classList.toggle('added');
 };
 
