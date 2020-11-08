@@ -15,7 +15,13 @@ form.onsubmit = function(evt) {
     evt.preventDefault();
     paragraph.textContent = input.value;
 };
-*/
+
 
 // Произведено вычисление, результат которого выведен на экран. Скобки расставлены таким образом, чтобы сложение осуществлялось в первую очередь
 console.log(55 * ( 7 + 2 ) / ( 4 + 2 ));
+*/
+
+let heart = document.querySelector('.heart');
+heart.onclick = function () {
+  	heart.classList.toggle('added');
+};
