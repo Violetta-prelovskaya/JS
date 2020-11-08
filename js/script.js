@@ -8,3 +8,9 @@ console.log(input.value);
 // Для дальнейшей работы элементу form также присвоена переменная
 let paragraph = document.querySelector('p');
 let form = document.querySelector('form');
+
+// Прописана инструкция, с помощью которой данные поля выводятся на страницу как текстовое содержимое элемента paragraph. Благодаря прописанному методу preventDefault отправка формы не осуществляется.
+form.onsubmit = function(evt) {
+    evt.preventDefault();
+    paragraph.textContent = input.value;
+};
