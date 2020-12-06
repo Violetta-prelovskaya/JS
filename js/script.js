@@ -25,3 +25,19 @@ function range(start, end) {
 
 // Выводим функцию range через alert
 alert(range(15, 30));
+
+/* Создаем функцию rangeOdd
+* В тело цикла добавляем условие, если остаток i от деления на два равняется 1, добавляй i в массив result
+*/
+
+function rangeOdd(start, end) {
+    const result = [];
+    for(let i = start; i <= end; i++) {
+        if(i%2 == 1) {
+        result.push(i);
+        }
+    }
+    return result;
+}
+
+alert(rangeOdd(15, 30));
