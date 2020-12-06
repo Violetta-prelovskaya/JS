@@ -41,3 +41,29 @@ function rangeOdd(start, end) {
 }
 
 alert(rangeOdd(15, 30));
+
+// Создаем функцию average
+
+function average(a, b) {
+    let result = (a + b) / 2;
+
+    return result;
+}
+
+// Создаем функцию square, которая будет вычислять квадрат заданного параметра
+
+function square(x) {
+    let result = x**2;
+
+    return result;
+}
+
+// Создаем функцию cube, которая будет вычислять куб заданного параметра
+
+function cube(x) {
+    let result = x**3;
+
+    return result;
+}
+
+
